@@ -1,0 +1,51 @@
+* {
+  margin: 0; }
+
+body {
+  margin: 0; }
+
+#menuResp li {
+  border: solid 1px #cadae7; }
+
+li, a {
+  list-style-type: none; }
+
+ul {
+  margin: 0; }
+
+header {
+  height: 100vh;
+  background-image: url(../img/bg-mcv.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center; }
+  header nav {
+    height: 100px; }
+    header nav li {
+      font-size: small; }
+      header nav li a {
+        color: white; }
+        header nav li a:hover {
+          color: white; }
+
+#menu {
+  position: sticky;
+  z-index: 10; }
+
+main .section1 {
+  background-color: salmon;
+  height: 100%; }
+main .section2 {
+  background-color: sandybrown;
+  height: 100%; }
+main .section3 {
+  background-color: skyblue;
+  height: 100%; }
+main .section4 {
+  background-color: slateblue;
+  height: 100%; }
+main .section5 {
+  background-color: sandybrown;
+  height: 100%; }
+
+/*# sourceMappingURL=style.css.map */
